@@ -1,0 +1,31 @@
+{
+  "name": "gulp",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "autoprefixer": "^10.1.0",
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-terser": "^2.0.0",
+    "postcss": "^8.2.1",
+    "postcss-csso": "^5.0.0",
+    "postcss-import": "^14.0.0",
+    "postcss-media-minmax": "^4.0.0",
+    "postcss-mixins": "^7.0.3",
+    "postcss-nested": "^5.0.5",
+    "postcss-simple-vars": "^6.0.3"
+  }
+}

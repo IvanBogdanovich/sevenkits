@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-25 -25 100 100" width="90" height="90">
+  <defs>
+    <linearGradient id="a" x1="24.9" y1="37.5" x2="6.1" y2="4.9" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#a)" d="M20 40a20 20 0 010-40 2 2 0 010 4 16 16 0 100 32 2 2 0 010 4z">
+    <animateTransform attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="0.5s" repeatCount="indefinite"/>
+  </path>
+</svg>

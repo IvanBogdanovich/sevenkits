@@ -1,0 +1,37 @@
+{
+  "name": "webpack-boilerplate",
+  "version": "0.0.0",
+  "description": "webpack, react atomic components",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack-cli serve --mode=development",
+    "build": "webpack --mode=development",
+    "prod": "webpack --mode=production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-syntax-jsx": "^7.14.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.2.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "serve": "^12.0.1",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.47.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^4.2.1"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "shortid": "^2.2.16"
+  }
+}
